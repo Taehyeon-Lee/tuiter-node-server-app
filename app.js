@@ -16,10 +16,11 @@ const options = {
 };
 
 /*
-const CONNECTION_STRING = 'mongodb+srv://taehyeon93:WebDevPassword@cluster0.gfdvr3y.mongodb.net/?retryWrites=true&w=majority'
+const CONNECTION_STRING = 'mongodb+srv://taehyeon93:WebDevPassword@cluster0.gfdvr3y.mongodb.net/tuiter?retryWrites=true&w=majority'
+
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
 || 'mongodb://localhost:27017/tuiter';
-mongoose.connect(CONNECTION_STRING);
+mongoose.connect(CONNECTION_STRING, options);
 
 mongoose.connect('mongodb://localhost:27017/tuiter', options);
 */
